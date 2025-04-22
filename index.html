@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owais Electrician</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHq6OS0OdUxIjFQ6yHD63N5L1e+QcH5wRk4EJ/hQ3RmYxTrKf5w5zAwUvKYl7uznEm5+YZbg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #08ca12;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: #c20921;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 0;
+      display: block;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .div{
+      color: black;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581092334634-fc8c3b8c92c6') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    .container {
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 60px;
+    }
+    .section div{
+      color: black;
+    }
+    .section h2 {
+      border-bottom: 3px solid #db262f;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background:goldenrod;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: relative;
+    }
+    ul.services-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding-left: 0;
+    }
+    ul.services-list li {
+      list-style: none;
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+    }
+    ul.services-list li i {
+      margin-right: 10px;
+      font-size: 1.3rem;
+      color: #fde50d;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      z-index: 1000;
+    }
+    .whatsapp-button i {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Owais Electrician</h1>
+    <p>Professional & Trusted Electrical Services in Karachi</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <div>Reliable Solutions for Your Electrical Needs</div>
+  </section>
+  <div class="container">
+    <section id="about" class="section">
+      <h2>About Owais</h2>
+      <p>I am Owais, a skilled domestic electrician based in Karachi, known for providing reliable and affordable electric services for homes and small businesses. With 10years of experience, I ensure safety, quality, and timely solutions for all electrical needs.</p>
+    </section>
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <ul class="services-list">
+        <li><i class="fas fa-bolt"></i> Wiring and Rewiring</li>
+        <li><i class="fas fa-server"></i> Breaker Panel Upgrades</li>
+        <li><i class="fas fa-lightbulb"></i> Lighting Installation</li>
+        <li><i class="fas fa-fan"></i> Fan and Exhaust Installation</li>
+        <li><i class="fas fa-plug"></i> Appliance Installation</li>
+        <li><i class="fas fa-toggle-on"></i> Socket and Switch Repair</li>
+        <li><i class="fas fa-battery-full"></i> UPS and Generator Setup</li>
+        <li><i class="fas fa-solar-panel"></i> Solar Panel Installation</li>
+        <li><i class="fas fa-lightbulb"></i> Energy Saver Installations</li>
+        <li><i class="fas fa-tachometer-alt"></i> Meter Installation & Phase Changes</li>
+        <li><i class="fas fa-exclamation-triangle"></i> Short Circuit Troubleshooting</li>
+        <li><i class="fas fa-home"></i> Home Automation Support</li>
+        <li><i class="fas fa-industry"></i> Industrial Wiring</li>
+        <li><i class="fas fa-store"></i> Shop and Office Electric Setup</li>
+        <li><i class="fas fa-wind"></i> AC Wiring & Stabilizer Installation</li>
+        <li><i class="fas fa-water"></i> Water Motor & Pump Connection</li>
+      </ul>
+    </section>
+  
+    <section id="reviews" class="section">
+      <h2>Customer Reviews</h2>
+      <p><em>Very professional work, satisfied with service.” <strong>– Ahmed</strong></em></p>
+      <p><em>“Fast response and honest pricing. Highly recommend!”<strong> – rashid</strong></em></p>
+      <p><em>"Installed solar panels seamlessly. Excellent work!"</p><strong>– ahmed ali</strong></em></p>
+      <p><em>Fixed my electrical issue in no time. Very professional! <strong>– waqar</strong></em></p>
+      
+
+      
+
+    </section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p><em>Call or WhatsApp: <strong><a href="phone">03112974518</a></strong></em></p>
+      <p>Location: PIB Colony, Karachi</p>
+      <p>Email: <a href="mailto:owais.electrician786@gmail.com">owais.electrician786@gmail.com</a></p>
+    </section>
+  </div>
+
+  <a href="https://wa.me/03112974518" target="_blank" class="whatsapp-button">
+    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+  </a>
+
+  <footer>
+    <p>&copy;Copyright website desighned by:Afham Ahmed  2025 Owais Electrician. All rights reserved.</p>
+  </footer>
+</body>
+</html>
